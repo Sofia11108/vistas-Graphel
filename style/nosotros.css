@@ -1,0 +1,113 @@
+.nav {
+    float:right;
+    padding-top: 10px;
+}
+
+.nav nav ul li {
+list-style: none; /* Quita los punticos */
+display: inline;
+margin-right: 30px;
+}
+
+.nav nav ul li a{
+text-decoration: none;
+}
+
+a:active {
+color: #1f94cf
+}
+.h2 {
+    float:left;
+    font-size: 20px;
+    padding-right: 6px;
+}
+.colorh1 {
+    color:#1f94cf;
+}
+header {
+    background-color: black;
+    height: 90px;
+    border-bottom: 5px solid #1f94cf;
+}
+.cont-header {
+    padding: 20px 100px;
+    /* height: 40px; */
+}
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color:azure
+}
+.suscripcion {
+    background-color: rgb(27, 22, 22);
+    padding: 30px 110px 65px 110px;
+}
+
+.suscripcion h4 {
+    font-size: 24px;
+    float: left;
+}
+.suscripcion .inputs {
+    float: right;
+}
+.suscripcion input {
+    width: 250px;
+    height: 28px;
+    margin-top: 4px;
+}
+.suscripcion button {
+    padding: 10px 12px;
+    width: 98px;
+    background-color: #e8491d;
+    border: #e8491d;
+}
+.contenido {
+    background-color: rgb(231, 230, 230);
+    height: 510px;
+    padding: 20px 100px;
+}
+.contenido .cont-izq {
+    float: left;
+    width: 780px;
+}
+
+.contenido .cont-izq .cont-negro h3{
+    color: black;
+}
+.contenido .cont-izq .cont-negro p{
+    color: black;
+    text-align: justify;
+}
+
+.contenido .cont-izq .cont-blanco{
+    background-color: rgb(55, 59, 57);
+    padding: 15px;
+}
+.contenido .cont-der {
+    background-color: rgb(55, 59, 57);
+    padding: 22px 15px;
+    float: right;
+    width: 280px;
+}
+.contenido .cont-izq .img img{
+    width: 780px;
+    margin-top: 10px;
+}
+
+footer p{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #1f94cf;
+    font-size: 14px;
+}
+
+main {
+    width: 1349.3px;
+    margin: auto;
+    height: 800px;
+}
+#color-azul {
+    color:#1f94cf;
+}

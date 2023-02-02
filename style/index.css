@@ -1,0 +1,123 @@
+.nav {
+    float:right;
+    padding-top: 10px;
+}
+
+.nav nav ul li {
+list-style: none; /* Quita los punticos */
+display: inline;
+margin-right: 30px;
+}
+
+.nav nav ul li a{
+text-decoration: none;
+}
+
+a:active {
+color: #1f94cf
+}
+/* cuando este activo el link que se vea azul */
+
+.h2 {
+    float:left;
+    font-size: 20px;
+    padding-right: 6px;
+}
+.colorh1 {
+    color:#1f94cf;
+}
+header {
+    background-color: black;
+    height: 90px;
+    border-bottom: 5px solid #1f94cf;
+}
+.cont-header {
+    padding: 20px 100px;
+    /* height: 40px; */
+}
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color:azure
+}
+
+.imagen {
+    background: url(/img/cabecera.jpg) no-repeat 0px -390px;
+    height: 312px;
+    width: auto;
+    padding: 110px 200px 0px 200px;
+    text-align: center;
+
+}
+.imagen h3 {
+    font-size: 60px;
+}
+.imagen p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.suscripcion {
+    background-color: rgb(27, 22, 22);
+    padding: 30px 110px 60px 110px;
+}
+
+.suscripcion h4 {
+    font-size: 24px;
+    float: left;
+}
+.suscripcion .inputs {
+    float: right;
+}
+.suscripcion input {
+    width: 250px;
+    height: 28px;
+    margin-top: 4px;
+}
+.suscripcion button {
+    padding: 10px 12px;
+    width: 98px;
+    background-color: #e8491d;
+    border: #e8491d;
+}
+
+.contenido .elementos p{
+    color: black;
+    font-size: 15px;
+}
+.contenido .elementos h3{
+    color: black;
+    margin: 12px 0px;
+    font-size: 18px;
+}
+.contenido .elementos {
+    float: left;
+    width: 320px;
+    margin-right: 50px;
+    text-align: center;
+}
+.contenido {
+    padding: 25px 100px 110px 100px;
+    background-color:rgb(231, 230, 230);
+    height: 110px;
+}
+.contenido .elementos img {
+    width: 80px;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #1f94cf;
+    font-size: 14px;
+}
+main {
+    width: 1349.3px;
+    margin: auto;
+    height: 900px;
+}
+#color-azul {
+    color:#1f94cf;
+}
